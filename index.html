@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarWars</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Css/reset.css">
+    <link rel="stylesheet" href="Css/style.css">
+
+<body> 
+    <nav>
+        <p>SPACEX</p>
+        <ul>
+            <li><a href="index.html">ACCEUIL</a></li>
+            <li>PROCHAINE MISSION</li>
+        </ul>
+    </nav>
+    <main>
+        <section id="sidebar">
+            <ul>
+                <li><a href="planetes.html"><img src="images/sidebar-img/globe (2).png" alt="">Planets</a></li>
+                <li><a href=""><img src="images/sidebar-img/fusee.png" alt="">Vehicules</a></li>
+                <li><a href=""><img src="images/sidebar-img/homme-daffaire.png" alt="">Personnes</a></li>
+            </ul>
+        </section>
+        <section id="home">
+            <div id="card-container1">
+                <div class="card">
+                    <h2 class="title">ABOUT THE UNIVERSE</h2>
+                    <P>Bienvenue sur <strong class="specif">ABOUT THE UNIVERSE</strong> pour découvrir toutes nos découvertes à propos du monde qui nous entoure !</P>
+                    <button id="btn-1">DECOUVRIRE</button>
+                </div>
+            </div>
+            <div id="card-container2">
+                <div class="card">
+                    <h1>LES CHIFFRES</h1>
+                    <p>Nous nous efforons à archiver toutes nos trouvailles pour vous les partager autant que possible !</p>
+                    <div class="infos">
+                        <div class="item item-1">
+                            <img src="images/business-people (1).png" alt="">
+                            <div class="title-info">
+                                <p>Nombres d'etre vivants recencés</p>
+                                <p id="nb-etre-viv"></p>
+                            </div>
+                        </div>
+                        <div class="item item-2">
+                            <img src="images/fusee.png" alt="">
+                            <div class="title-info">
+                                <p>Nombres de véhicules recencés</p>
+                                <p id="nb-vehicules"></p>
+                            </div>
+                        </div>
+                        <div class="item item-3">
+                            <img src="images/globe (1).png" alt="">
+                            <div class="title-info">
+                                <p>Nombres de planète rencées</p>
+                                <p id="nb-planète"></p>
+                            </div>
+                        </div>
+                        <div class="item item-4">
+                            <img src="images/lhorloge.png" alt="">
+                            <div class="title-info">
+                                <p>Prochaine mission</p>
+                                <p id="next-mission"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="btn-2">PARTICIPER A LA PROCHAINE MISSION</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="JS/script.js"></script>
+</body>
+</html>

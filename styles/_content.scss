@@ -1,0 +1,36 @@
+main {
+    display: flex;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+}
+
+#home #card-container1 {
+    min-width: 1700px;
+    height: 250px;
+    
+}
+
+#card-container1 .card {
+    margin: 30px 30px 0px 50px;
+}
+
+.card .title {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: rgb(114, 114, 205);
+}
+
+.card p {
+    font-size: larger;
+    margin-bottom: 60px;
+}
+
+.card .specif {
+    color: rgb(114, 114, 205);
+    font-weight: bold;
+}
+

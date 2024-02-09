@@ -1,0 +1,182 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    min-width: 1250px;
+    height: 80px;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+nav p {
+    font-size: xx-large;
+    margin-left: 20px;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    margin-left: 100px;
+}
+
+nav ul li {
+    margin: 30px;
+}
+
+main {
+    min-width: 1250px;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+}
+
+#sidebar {
+    width: 6%;
+    height: 100vh;
+    background-color: black;
+    border: 2px solid white;
+}
+
+#sidebar ul {
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#sidebar a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sidebar ul img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+#sidebar ul li {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+
+main {
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    min-width: 1000px;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+}
+
+#home #card-container1 {
+    /* width: 1200px; */
+    width: 98%;
+    height: 220px;
+    background-image: url('../images/background/robot-2256814_1280.jpg');
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    border: 1px solid white;
+    margin: 40px 0px 0px 20px;
+}
+
+#card-container1 .card {
+    margin: 50px 30px 0px 50px;
+}
+
+.card .title {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(199, 199, 254);
+}
+
+.card p {
+    font-size: smaller;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.card .specif {
+    color: rgb(199, 199, 254);
+    font-weight: bold;
+}
+
+#card-container1 .card #btn-1 {
+    background-color: #000000; /* Green */
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+} 
+
+#home #card-container2 {
+    margin: 70px 0px 0px 20px;
+    color: white;
+    height: 400px;
+    background-color: aliceblue;
+    background-image: url("../images/background/science-fiction-1424446_1280.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    height: 280px;
+    border: 1px solid white;
+    width: 98%;
+}
+
+#card-container2 .card {
+    margin: 40px 40px 0px 50px;
+}
+
+#card-container2 .card h1 {
+    color: rgb(92, 141, 206);
+    font-weight: bold;
+    font-size: medium;
+    margin-bottom: 15px;
+}
+
+#card-container2 .infos {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 0px 0px 40px 0px;
+}
+
+#card-container2 .infos .item {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.infos .item img {
+    width: 40px;
+    height: 40px;
+    color: white;
+    margin: 10px
+}
+
+.item .title-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.title-info p {
+    color: rgb(92, 141, 206);
+    font-size: small;
+}
